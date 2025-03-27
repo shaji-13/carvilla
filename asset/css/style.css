@@ -1,0 +1,424 @@
+*{ padding: 0;
+    margin: 0;}
+
+   :root{
+    --theme-color: gray;
+    --txt-color: black;
+    --txt-clr: white;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        background-image: url(..//image/bg7.avif);
+        background-repeat: no-repeat;
+        background-size: 100%; 
+    }
+    .header{
+        background-color: var(--txt-clr);
+        height: 40px;
+        width: 100%;
+        display: flex;
+    }
+    
+    .bold{
+        font-weight: 800;
+        font-size: 60px;
+        position: absolute;
+        top: 190px;
+        left: 115px;
+        color: var(--txt-clr);
+    }
+    .small{
+        font-weight: 800;
+        font-size: 20px;
+        position: absolute;
+        top: 300px;
+        color: var(--txt-clr);
+        left: 100px;
+    }
+    .btn{
+        position: absolute;
+        top: 410px;
+        left: 550px;
+        size: 150px;
+        border: 1px solid gray;
+        color: var(--txt-color);
+        background-color: var(--txt-clr);
+        padding: 20px 40px;
+        font-size: large;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+ .btn:hover{
+        background-color: var(--theme-color);
+    }
+    .main1 {
+        color: black;
+        background-color: var(--theme-color);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30px;
+        padding: 10px 10px;
+        position: sticky;
+        top:0px;
+        z-index: 100;
+    }
+    .icon{
+        display: none;
+        
+    }
+    #cb{
+        display: none;
+    }
+    .head a{
+        text-decoration: none;
+        font-size: 22px;
+        color: var(--txt-clr);
+        margin-left: 15px;
+    }
+    .head a:hover{
+        color:black
+    }
+    /* .........icon start......... */
+    .box{
+        height: 120px;
+        width: 800px;
+        padding: 75px;
+        background:white;
+        position: absolute;
+        top: 600px;
+        left: 160px;
+        align-items: center;
+        box-shadow: 1px 3px  1px 3px silver;
+        }
+        .row1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+        select{
+            width: 150px;
+            height: 30px;
+            font-size: 15px;
+            background-color: silver;
+        }
+        .row1 p{
+           display: flex;
+           gap: 50px;
+           margin-top: 5px;
+           font-size: 20px;
+         }
+         .row2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            }
+            .row2 p{
+                display: flex;
+                gap: 50px;
+                margin-top: 5px;
+                font-size: 20px;
+              }
+              .search{
+                size: 75px;
+                border: 1px solid gray;
+                color: var(--txt-color);
+                background-color: var(--txt-clr);
+                padding: 10px 20px;
+                width: 150px;
+                font-size: large;
+                border-radius: 10px;
+                margin-left: 350px;
+                cursor: pointer;
+            }
+         .search:hover{
+                background-color: var(--theme-color);
+            }
+            /* .........iconbox start......... */
+            .iconbox{
+                margin-top: 900px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .iconbox1{
+                width: 350px;
+                height: 400px;
+                border: 1px solid var(--theme-color);
+                text-align: center;
+                border-radius: 5px;
+                background-color: white;
+            }
+            .iconbox1 h3,p{
+                font-size: 20px;
+                margin-top: 30px;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            .iconbox1 h3{
+                font-size: 20px;
+                margin-top: 20px;
+                
+            }
+            .icon1{
+                margin-top: 50px;
+            }
+            .iconbox1:hover{
+                background-color: var(--theme-color);
+            }
+            /* .........ferrari start......... */
+    .newcar{
+        text-align: center;
+        font-size: 30px;
+        color: var(--theme-color);
+    }
+    .ferrari{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+        }
+        .textferrari{
+            margin-left: 20px;
+        }
+        .textferrari p{
+            color: var(--theme-color);
+        }
+        .btnferrari{
+            background-color: var(--theme-color);
+            size: 75px;
+                border: 1px solid gray;
+                color: var(--txt-color);
+                background-color: var(--txt-clr);
+                padding: 10px 20px;
+                width: 150px;
+                font-size: large;
+                border-radius: 5px;
+                margin-left: 17px;
+                cursor: pointer;
+            }
+         .btnferrari:hover{
+                background-color: var(--theme-color);
+        }
+        /* .........card start......... */
+       .features
+        {
+            text-align: center;
+            font-size: 30px;
+            color: var(--theme-color);
+        }
+        .card{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .card2{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+        }
+        .bmw{
+            height: 400px;
+            width: 270px;
+            border: 1px solid silver;
+        }
+    .bmwimg{
+        margin-top: 20px;
+        margin-left: 20px;
+    }    
+    .bmwtext p{
+        color: var(--theme-color);
+        font-size: large;
+    }  .bmwblk{
+        color: black !important;
+        font-weight: bold;
+    }
+    .camaro{
+        height: 400px;
+        width: 270px;
+        border: 1px solid silver;
+    }
+.camaroimg{
+    margin-top: 20px;
+    margin-left: 20px;
+}    
+.camarotext p{
+    color: var(--theme-color);
+    font-size: large;
+}  .camarored{
+    color: black !important;
+    font-weight: bold;
+}
+.lam{
+    height: 400px;
+    width: 270px;
+    border: 1px solid silver;
+}
+.lamimg{
+margin-top: 20px;
+margin-left: 20px;
+}    
+.lamtext p{
+color: var(--theme-color);
+font-size: large;
+}  
+.lamblue{
+color: black !important;
+font-weight: bold;
+}
+.audi{
+    height: 400px;
+    width: 270px;
+    border: 1px solid silver;
+}
+.audiimg{
+margin-top: 15px;
+margin-left: 20px;
+}    
+.auditext p{
+color: var(--theme-color);
+font-size: large;
+}  .audired{
+color: black !important;
+font-weight: bold;
+}
+
+/* .........client start......... */
+.clientbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.client{
+    text-align: center;
+    font-size: 30px;
+    color: var(--theme-color);
+}
+.client1{
+    width: 350px;
+    height: 400px;
+    border: 1px solid var(--theme-color);
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;}
+    .client1 p{
+    color: var(--txt-color);
+    }
+.person1{
+    margin-top: 60px;
+}
+.client2{
+    width: 350px;
+    height: 400px;
+    border: 1px solid var(--theme-color);
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;}
+    .client2 p{
+    color: var(--txt-color);
+    }
+.person2{
+    margin-top: 60px;
+}
+.client3{
+    width: 350px;
+    height: 400px;
+    border: 1px solid var(--theme-color);
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;}
+    .client3 p{
+    color: var(--txt-color);
+    }
+.person3{
+    margin-top: 60px;
+}
+.client1:hover{
+    background-color: var(--theme-color);
+}
+.brand
+{
+    display: flex;
+    justify-content: space-evenly
+    
+}
+.flexbg{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    color: var(--txt-clr);
+}
+.foot{
+    display: flex;
+    justify-content: space-around;  
+}
+.domain>p,h3{
+    line-height: 0.3;
+}
+.domain{
+    margin-top: 50px;
+}
+.brand1{
+    margin-top: 50px;
+}
+
+.brand1>p,h3{
+    line-height: 0.3;
+}
+.brand1>p:hover{
+ position: relative;
+ left: 5px;
+}
+/* .footer{
+    height: 50px;
+    background-color: var(--theme-color);
+}
+    .copy{
+ font-size: 20px;
+ padding: 10px 10px;
+ margin-left: 10%;
+}  */
+.flex{
+    display: flex;
+    background-color: var(--theme-color);
+    justify-content: space-around;
+    height: 50px;
+}
+.copy,.footicon,.name{
+    font-size:20px;
+    padding: 10px 10px;
+    margin-left: 10%;
+}
+.copy{
+    text-decoration: none;
+    color: var(--txt-color);
+
+}
+.footicon>.abc{
+    margin-left: 10px;
+}
+
+    @media screen and (max-width:768px){
+        .icon{
+            display: flex;
+        }
+        .head{
+            display: none;
+        }
+        .head a{
+            font-size: 20px;
+        }
+       .nav{
+            font-size: 20px;
+        }
+        #cb:checked ~ .head{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            padding: 20px;
+            top: 50px;
+            left: 0%;
+            gap: 5px;
+            width: 100%;
+            background-color: var(--theme-color);
+            }
+    }
+    
